@@ -1,0 +1,25 @@
+{
+  "name": "k2a",
+  "version": "1.0.0",
+  "description": "Turn Kindle definition lookups into Anki flash cards",
+  "main": "k2a.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strong-code/k2a.git"
+  },
+  "author": "strongcode",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/strong-code/k2a/issues"
+  },
+  "homepage": "https://github.com/strong-code/k2a#readme",
+  "dependencies": {
+    "anki-apkg-export": "^4.0.3",
+    "better-sqlite3": "^7.4.3",
+    "needle": "^3.0.0",
+    "yargs": "^17.2.1"
+  }
+}
